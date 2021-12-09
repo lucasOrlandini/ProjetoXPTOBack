@@ -13,7 +13,7 @@ namespace ProjetoXPTO.Models
         [StringLength(100)]
         public string Nome { get; set; }
         [Required]
-        public int Preco { get; set; }
+        public decimal Preco { get; set; }
         public string CodigoBarras { get; set; }
         public string Imagem { get; set; }
         [Required]
